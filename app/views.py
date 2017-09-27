@@ -4,7 +4,7 @@ from flask import render_template
 from flask import Response
 
 @app.route('/')
-@app.route('/')
+@app.route('/index.html')
 def index():
     '''
     Returns a static webpage for now.
